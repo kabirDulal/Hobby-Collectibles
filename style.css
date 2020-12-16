@@ -1,0 +1,204 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+h1 {
+  
+  color: green;
+}
+h2 {
+	color: grey;
+}
+h3 {
+	color: maroon;
+	align: left;
+}
+/*Defining the P tag*/
+p{
+        font-family: Arial;
+        font-size: 14px;      
+        color: #373737;
+	align: left;
+
+}
+paim{
+        font-family: Arial;
+        font-size: 14px;      
+        color: #373737;
+	float: left;
+	padding: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:  blue;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+clear: both;
+
+}
+
+
+header{
+
+
+width: 100%;
+
+float: left;
+
+background: #333;
+}
+
+.nav-collapse {
+    float: left !important;
+    width: 100%;
+}
+
+.open-hour{
+  padding: 0px 20px;
+}
+
+figcaption {
+    padding: 20px 0px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 16px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+.about {
+	float: right;
+	width:50%
+	padding: 10px;
+}
+.about_aim {
+	float: left;
+	width:50%
+	padding: 10px;
+}
+
+.welcome{
+  float: left;
+  width: 100%;
+}
+
+.about-main{
+  padding: 10px;
+  clear: both;
+  float: left;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+form {
+  margin:0px; 
+  padding: 30px 20px;
+  background: #F5F5F5;  
+}
+label {
+  display:block;
+  font-weight:bold;
+  margin:5px 0;
+}
+input {
+  padding:2px;
+  border:1px solid #eee;
+  font: normal 1em Verdana, sans-serif;
+  color:#777;
+}
+textarea {
+  width:400px;
+  padding:2px;
+  font: normal 1em Verdana, sans-serif;
+  border:1px solid #eee;
+  height:100px;
+  display:block;
+  color:#777;
+}
+input.button { 
+  font: bold 12px Arial, Sans-serif; 
+  height: 24px;
+  margin: 0;
+  padding: 2px 3px; 
+  color: #333;
+  background: #e7e6e6 url(MarketPlace-images/button.jpg) repeat-x;
+  border: 1px solid #dadada;
+}
+/* Footer Section */
+.footer{
+    width: 100%;
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+    height:40%;
+    float:none;
+    padding: 10px 20px;
+}
+.footer p{
+        font-family: MONOSPACE;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+}
+
+
+.welcome{
+  text-align: center;
+padding: 20px;
+clear: both;
+}
+
+
+.stam img{
+width: 100%;
+  object-fit: fill;
+  object-position: 50% 50%; /* default value: image is centered*/
+  height: 300px
+
+}
+
